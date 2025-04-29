@@ -1,39 +1,43 @@
 
 # Calculadora Simples com Interface Gráfica
+**Projeto**: Calculadora
+**Grupo**: Bryann Lucas Locatelli e Carlos Magno
 
-## 📋 Requisitos Funcionais
+---
+
+##  Requisitos Funcionais
 
 **Nome do projeto:** Calculadora Simples com Interface Gráfica  
 **Objetivo:** Permitir ao usuário realizar operações matemáticas básicas (adição, subtração, multiplicação, divisão).  
 
-### ✅ Funcionalidades
+###  Funcionalidades
 - Interface gráfica com botões numerais e operadores.
 - Suporte a ponto decimal.
 - Cálculo de expressões com botão "=".
 - Limpar entrada com "C".
 - Validação de divisão por zero.
 
-### 🛠️ Tecnologias utilizadas
+###  Tecnologias utilizadas
 - Python 3
 - Tkinter para GUI
 
-### ⚙️ Requisitos não-funcionais
+###  Requisitos não-funcionais
 - Aplicação deve ser responsiva e intuitiva.
 - Deve exibir mensagens de erro em caso de entrada inválida.
 
 ---
 
-## 🧪 Plano de Testes
+##  Plano de Testes
 
 | Caso de Teste       | Entrada | Saída Esperada | Resultado |
 |---------------------|---------|----------------|-----------|
-| Soma simples        | `2+3`   | `5`            | ✅        |
-| Divisão por zero    | `10/0`  | `Erro`         | ✅        |
-| Limpar entrada      | `C`     | Campo limpo    | ✅        |
+| Soma simples        | `2+3`   | `5`            |   ok      |
+| Divisão por zero    | `10/0`  | `Erro`         |   ok      |
+| Limpar entrada      | `C`     | Campo limpo    |   ok      |
 
 ---
 
-## 🔁 Fluxograma (texto)
+##  Fluxograma (texto)
 
 ```
 [Início]
